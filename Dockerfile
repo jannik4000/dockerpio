@@ -1,6 +1,8 @@
 FROM python:3.9.0-slim
 
-ENV APP_VERSION="5.0.1" \
+#ENV APP_VERSION="5.0.1" \
+ENV APP_VERSION="6.1.6" \
+
     APP="platformio-core"
 
 LABEL app.name="${APP}" \
