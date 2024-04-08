@@ -1,9 +1,10 @@
-FROM ubuntu:18.04
+FROM ubuntu:22.04
+#ubuntu:18.04
 #python:3.11.3-slim
 #3.9.0-slim
 
 #ENV APP_VERSION="5.0.1" \
-ENV APP_VERSION="6.1.8" \
+ENV APP_VERSION="6.1.14" \
 
     APP="platformio-core"
 
