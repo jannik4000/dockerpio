@@ -18,6 +18,7 @@ RUN df -h && \
     df -h && \
     #pip3 install -U platformio==${APP_VERSION} && \
     python -m pip install -U https://github.com/platformio/platformio-core/archive/develop.zip && \
+    pio platform install https://github.com/platformio/platform-atmelavr.git && \
     mkdir -p /workspace && \
     mkdir -p /.platformio && \
     chmod a+rwx /.platformio
