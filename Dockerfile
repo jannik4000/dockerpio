@@ -15,7 +15,7 @@ LABEL app.name="${APP}" \
 RUN df -h && \
     sudo apt-get clean && \
     df -h && \
-    pip install -U platformio==${APP_VERSION} && \
+    pip3 install -U platformio==${APP_VERSION} && \
     mkdir -p /workspace && \
     mkdir -p /.platformio && \
     chmod a+rwx /.platformio
