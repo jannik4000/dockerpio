@@ -4,7 +4,7 @@ FROM ubuntu:24.04
 #3.9.0-slim
 
 #ENV APP_VERSION="5.0.1" \
-ENV APP_VERSION="6.1.14" \
+ENV APP_VERSION="6.1.5" \
 
     APP="platformio-core"
 
