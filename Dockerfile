@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 #ubuntu:18.04
 #python:3.11.3-slim
 #3.9.0-slim
