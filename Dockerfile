@@ -17,7 +17,6 @@ RUN     apt-get update \
             git \
             jq \
     && mkdir /opt/platformio-docker
-RUN pio platform install -t platformio/tool-scons
 
 WORKDIR /opt/platformio-docker
 
