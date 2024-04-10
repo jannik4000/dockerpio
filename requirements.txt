@@ -19,8 +19,8 @@ idna==3.3
 ifaddr==0.2.0
 marshmallow==3.17.0
 packaging==21.3
-platformio==6.1.4
-pyelftools==0.29
+platformio==6.1.14
+pyelftools==0.31
 pyparsing==3.0.9
 pyserial==3.5
 pyyaml==6.0
