@@ -4,6 +4,7 @@
 #
 #    make freeze
 #
+platformio/tool-scons
 aiofiles==0.8.0
 ajsonrpc==1.2.0
 anyio==3.6.1
